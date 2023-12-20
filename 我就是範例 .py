@@ -9,7 +9,7 @@ import sys
 import jieba
 import time
 import re
-with open("r", "r", encoding="utf-8") as file:
+with open("r.txt", "r", encoding="utf-8") as file:
     text = file.read()
     text = re.sub(r'[\n,，。\t()]+', '', text)
     
